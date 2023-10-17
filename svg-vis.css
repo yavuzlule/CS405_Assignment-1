@@ -1,0 +1,52 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+.chart {
+    background-color: rgb(229, 240, 240);
+}
+.rectangle {
+    fill: #780058;
+
+}
+.rectangle:hover {
+    fill: rgba(65, 0, 88, 0.3);
+}
+.rectangle:hover ~ .rect-value {
+    visibility: visible;
+}
+
+.grid-line {
+    stroke: rgb(249, 144, 144);
+    stroke-dasharray: 4;
+    stroke-width: 1px;
+}
+.rect-year {
+    fill: rgb(50, 0, 37);
+    writing-mode:vertical-lr;
+    font-size: 15px;
+}
+
+.rect-value {
+    visibility: hidden;
+    fill: rgb(120, 0, 88);
+    writing-mode:vertical-lr;
+    font-size: 15px;
+
+}
+.chart-line {
+    stroke: black;
+    stroke-width: 3px;
+    stroke-linecap: square;
+}
+.chart-arrow {
+    fill: black;
+}
+
+.chart-text {
+    font-size: 15px;
+    fill: rgb(50, 0, 37);
+}
+
+.recty:hover {
+    fill:aliceblue;
+}
